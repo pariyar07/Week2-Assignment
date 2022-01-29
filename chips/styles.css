@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(123, 218, 255);
+}
+
+.main-container{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(219, 218, 218);
+    width: 85%;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+    border-bottom: 1px solid rgb(0, 0, 0);
+}
+
+.main-container:hover{
+    border-bottom: 3px solid rgb(0, 0, 0);
+}
+
+.title{
+    font-size: 1rem;
+    color:rgb(114, 114, 114);
+    padding: 5px 0 0 5px;
+}
+
+.chips-container{
+    display: flex;
+    flex-direction: row;
+    padding: 0 0 0 10px;
+    list-style: none;
+    flex-wrap: wrap;
+    margin: 0;
+}
+
+li{ 
+
+    display: flex;
+    align-items: center;
+    margin-right: 0.5rem;
+    background:rgb(196, 195, 195);
+    padding: 0 0.8rem;
+    border-radius: 1rem;
+    gap: 0.8rem;
+    color:rgb(22, 47, 61);
+}
+
+#delete{
+    height: 15px;
+    border-radius: 0.8rem;
+}
+
+#delete:hover{
+    color: rgb(73, 73, 73);
+    height: 20px;
+}
+
+.chips-input{
+    border: none;
+    background: transparent;
+    margin-bottom: 0.5rem;
+    padding: 10px 0 0 10px;
+    height: 2rem;
+    font-size: 1rem;
+    outline: none;
+}
+
